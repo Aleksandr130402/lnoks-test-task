@@ -29,10 +29,6 @@ function App() {
 	}, []);
 
 	useEffect(() => {
-		console.log(movies);
-	}, [movies]);
-
-	useEffect(() => {
 		setFilteredMovies(null);
 		if (searchValue.length > 0) {
 			setFilteredMovies(findMovie());

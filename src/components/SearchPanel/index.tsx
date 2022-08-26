@@ -9,7 +9,7 @@ type SearchPanelProps = {
 export const SearchPanel: React.FC<SearchPanelProps> = ({ searchValue, handleOnChange }) => {
 	return (
 		<div className="search-panel">
-			<input placeholder="search movie" value={searchValue} onChange={(e) => handleOnChange(e)} />
+			<input placeholder="Шукати фільм" value={searchValue} onChange={(e) => handleOnChange(e)} />
 		</div>
 	);
 };
